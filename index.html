@@ -52,7 +52,7 @@
   <p class="crumb" id="crumb"></p>
 
   <main id="main"><p class="empty">Cargando capturas.</p></main>
-  <footer>soyache/payly-fluent-review · Inventario listo · Supervisor en curso</footer>
+  <footer>soyache/payly-fluent-review · Inventario listo · Inventario · Supervisor · Reportes</footer>
 
   <script>
     /**
@@ -93,6 +93,19 @@
           { id: 'ventas-devoluciones', label: 'Devoluciones', path: 'supervisor/ventas-devoluciones', group: 'Ventas' },
           { id: 'ventas-reportes', label: 'Reportes personalizados', path: 'supervisor/ventas-reportes', group: 'Ventas' },
           { id: 'envios', label: 'Envíos', path: 'supervisor/envios', group: 'Envíos' }
+        ]
+      },
+      {
+        id: 'reportes',
+        label: 'Reportes',
+        pages: [
+          { id: 'hub', label: 'Inicio', path: 'reportes/hub', group: 'Hub' },
+          { id: 'inventario', label: 'Inventario', path: 'reportes/inventario', group: 'Inventario' },
+          { id: 'isv', label: 'ISV', path: 'reportes/isv', group: 'ISV' },
+          { id: 'utilidad-bruta', label: 'Utilidad bruta', path: 'reportes/utilidad-bruta', group: 'Utilidad bruta' },
+          { id: 'productos-problematicos', label: 'Productos problemáticos', path: 'reportes/productos-problematicos', group: 'Productos problemáticos' },
+          { id: 'ventas', label: 'Ventas', path: 'reportes/ventas', group: 'Ventas' },
+          { id: 'ventas-producto', label: 'Ventas por producto', path: 'reportes/ventas-producto', group: 'Ventas por producto' }
         ]
       }
     ];
