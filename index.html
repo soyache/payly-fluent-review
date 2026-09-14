@@ -52,7 +52,7 @@
   <p class="crumb" id="crumb"></p>
 
   <main id="main"><p class="empty">Cargando capturas.</p></main>
-  <footer>soyache/payly-fluent-review · Inventario listo · Inventario · Supervisor · Reportes · Proveedores</footer>
+  <footer>soyache/payly-fluent-review · Inventario listo · Inventario · Supervisor · Reportes · Proveedores · Flujo de efectivo</footer>
 
   <script>
     /**
@@ -123,6 +123,15 @@
           { id: 'detalle-facturas', label: 'Facturas', path: 'proveedores/detalle-facturas', group: 'Ver proveedor' },
           { id: 'detalle-contactos', label: 'Contactos', path: 'proveedores/detalle-contactos', group: 'Ver proveedor' },
           { id: 'detalle-cuentas', label: 'Cuentas bancarias', path: 'proveedores/detalle-cuentas', group: 'Ver proveedor' }
+        ]
+      },
+      {
+        id: 'flujo-efectivo',
+        label: 'Flujo de efectivo',
+        pages: [
+          { id: 'hub', label: 'Dashboard', path: 'flujo-efectivo/hub', group: 'Principal' },
+          { id: 'movimientos', label: 'Historial', path: 'flujo-efectivo/movimientos', group: 'Principal' },
+          { id: 'configuracion', label: 'Configuración', path: 'flujo-efectivo/configuracion', group: 'Principal' }
         ]
       }
     ];
